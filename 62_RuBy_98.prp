@@ -1,0 +1,162 @@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++  XPREP - DATA PREPARATION & RECIPROCAL SPACE EXPLORATION - Version 2008/2  +
++  COPYRIGHT(c) 2008 Bruker-AXS                         All Rights Reserved  +
++  sad                                   started at 11:39:31 on 05-Jun-2019  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Original cell in Angstroms and degrees:
+
+   18.366   18.366   16.223    90.00    90.00   120.00
+
+   58216 Reflections read from file sad.hkl; mean (I/sigma) =    4.51
+
+
+Lattice exceptions:  P      A      B      C      I      F     Obv    Rev    All
+
+N (total) =           0  29053  29141  29122  29051  43658  38819  38824  58216
+N (int>3sigma) =      0  19770  19879  19971  19880  29810  26598  26536  39787
+Mean intensity =    0.0    4.4    4.5    4.5    4.4    4.5    4.6    4.6    4.6
+Mean int/sigma =    0.0    4.5    4.5    4.6    4.6    4.6    4.6    4.6    4.6
+
+Lattice type: P chosen          Volume:      4738.95
+
+-------------------------------------------------------------------------------
+
+DETERMINATION OF REDUCED (NIGGLI) CELL
+
+Transformation from original cell (HKLF-matrix): 
+    0.0000  0.0000  1.0000    1.0000  1.0000  0.0000    0.0000  1.0000  0.0000
+
+Unitcell:      16.223   18.365   18.366   60.00   90.00   90.00
+
+Niggli form:     a.a =    263.19      b.b =    337.29      c.c =    337.31
+                 b.c =    168.64      a.c =      0.02      a.b =      0.01
+
+-------------------------------------------------------------------------------
+
+Search for higher metric symmetry
+Identical indices and Friedel opposites combined before calculating R(sym)
+------------------------------------------------------------------------------
+Option A: FOM = 0.004 deg.   HEXAGONAL    P-lattice   R(sym) = 0.058 [  14776]
+Cell:   18.366  18.366  16.223   90.00   90.00  120.00    Volume:      4738.95
+Matrix: 1.0000  0.0000  0.0000  0.0000  1.0000  0.0000  0.0000  0.0000  1.0000
+
+Option A selected
+
+-------------------------------------------------------------------------------
+
+SPACE GROUP DETERMINATION
+
+
+Lattice exceptions:  P      A      B      C      I      F     Obv    Rev    All
+
+N (total) =           0  29053  29141  29122  29051  43658  38819  38824  58216
+N (int>3sigma) =      0  19770  19879  19971  19880  29810  26598  26536  39787
+Mean intensity =    0.0    4.4    4.5    4.5    4.4    4.5    4.6    4.6    4.6
+Mean int/sigma =    0.0    4.5    4.5    4.6    4.6    4.6    4.6    4.6    4.6
+
+
+Crystal system H and Lattice type P selected
+
+Mean |E*E-1| = 0.984 [expected .968 centrosym and .736 non-centrosym]
+
+Chiral flag NOT set
+
+
+
+Systematic absence exceptions:
+
+        61/65 62=31  63    -c-   --c 
+
+N        39    31    24  2545  1320
+N I>3s   12    12     0  1839     0
+<I>    26.1  32.9   0.0   3.2   0.0
+<I/s>   2.8   3.5   0.4   4.8   0.4
+
+
+Identical indices and Friedel opposites combined before calculating R(sym)
+
+Option  Space Group  No.  Type  Axes  CSD  R(sym) N(eq)  Syst. Abs.   CFOM
+
+[A] P-31c          #163  centro   1    23  0.062  19161  0.4 /  2.8   8.28
+[B] P31c           #159  non-cen  1    12  0.062  19161  0.4 /  2.8  17.91
+
+Option [A] chosen
+
+-------------------------------------------------------------------------------
+
+INTENSITY STATISTICS FOR DATASET # 1  sad.hkl
+
+ Resolution  #Data #Theory %Complete Redundancy Mean I Mean I/s R(int) Rsigma
+
+ Inf - 1.93     276    276    100.0    12.61      25.0   20.31  0.0599  0.0480
+1.93 - 1.51     277    277    100.0    12.61      11.7   21.53  0.0671  0.0372
+1.51 - 1.31     277    277    100.0    13.71       9.3   21.97  0.0773  0.0354
+1.31 - 1.19     277    277    100.0    13.90       6.7   20.61  0.0822  0.0365
+1.19 - 1.10     279    279    100.0    12.77       5.1   19.15  0.0889  0.0394
+1.10 - 1.03     292    292    100.0    12.13       4.3   17.61  0.1026  0.0421
+1.03 - 0.98     272    272    100.0    12.94       3.9   18.11  0.1089  0.0420
+0.98 - 0.93     328    328    100.0    13.11       3.5   17.38  0.1102  0.0414
+0.93 - 0.89     318    318    100.0    12.81       2.6   15.10  0.1254  0.0461
+0.89 - 0.85     373    373    100.0    11.92       2.3   14.03  0.1326  0.0491
+0.85 - 0.82     337    337    100.0    11.88       1.9   12.93  0.1572  0.0528
+0.82 - 0.79     395    395    100.0    12.02       1.6   12.59  0.1647  0.0548
+0.79 - 0.77     281    281    100.0    11.83       1.3   11.56  0.1821  0.0610
+0.77 - 0.75     330    330    100.0     9.66       1.5   10.57  0.1750  0.0642
+0.75 - 0.73     359    361     99.4     6.27       1.2    7.99  0.1598  0.0900
+0.73 - 0.71     372    408     91.2     3.89       1.1    6.32  0.1579  0.1151
+0.71 - 0.69     281    442     63.6     1.99       1.1    5.20  0.1496  0.1413
+0.69 - 0.67      91    317     28.7     0.50       0.8    3.26  0.1651  0.2256
+------------------------------------------------------------------------------
+0.77 - 0.67    1586   2011     78.9     4.91       1.2    7.70  0.1692  0.0991
+ Inf - 0.67    5415   5840     92.7     9.97       4.5   14.32  0.0920  0.0474
+
+Merged [A],  lowest resolution = 16.22 Angstroms,   2559 outliers downweighted
+
+-------------------------------------------------------------------------------
+
+Current dataset is # 1  sad.hkl
+
+-------------------------------------------------------------------------------
+
+Determination of unit-cell contents
+
+Formula: C20H20N6Ru1P2F12                                  
+
+Formula weight =    735.41
+
+Tentative Z (number of formula units/cell) =   8.0  giving rho = 2.062,
+non-H atomic volume =  14.4  and following cell contents and analysis:
+
+ C     160.00    32.66 %              H     160.00     2.74 %
+ N      48.00    11.43 %              F      96.00    31.00 %
+ P      16.00     8.42 %              Ru      8.00    13.74 %
+
+F(000) =    2912.0        Mo-K(alpha) radiation        Mu (mm-1) =   0.92
+
+
+-------------------------------------------------------------------------------
+
+File 62_RuBy_98.ins set up as follows:
+
+TITL 62_RuBy_98 in P-31c 
+CELL 0.71073  18.3660  18.3660  16.2230  90.000  90.000 120.000
+ZERR    8.00   0.0026   0.0026   0.0032   0.000   0.000   0.000
+LATT  1
+SYMM -Y, X-Y, Z
+SYMM -X+Y, -X, Z
+SYMM -Y, -X, 0.5-Z
+SYMM -X+Y, Y, 0.5-Z
+SYMM X, X-Y, 0.5-Z
+SFAC C H N F P RU
+UNIT 160 160 48 96 16 8
+TREF     
+HKLF 4
+END 
+
+   58216 Reflections written to new reflection file 62_RuBy_98.hkl
+
+-------------------------------------------------------------------------------
+
